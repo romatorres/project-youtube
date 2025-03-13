@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Endereço do Curso
+
+https://youtu.be/ewxUC_zweBg?si=y8lCnXTPUis10zL1
+1:23:00
+
+Projeto Full stack YouTube:
+
+Next.js 15
+React 19
+Typescript
+Toast
+Tailwind css 4
+Shadcn Ui
+Motion - biblioteca de animações
+Clerk - Cria autenticação para usuários
+PostgreSQL
+NeonDB
+UploadThing - up de imagens
+Stripe - pagamentos online
 
 ## Getting Started
 
