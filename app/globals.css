@@ -119,7 +119,27 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
+  h1 {
+    @apply text-4xl md:text-6xl xl:text-7xl font-bold;
+  }
+  h2 {
+    @apply text-xl lg:text-3xl  font-medium;
+  }
+  h3 {
+    @apply text-3xl lg:text-4xl  font-medium;
+  }
+  a {
+    @apply hover:cursor-pointer;
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @media (width >= --theme(--breakpoint-sm)) {
+    max-width: none;
+  }
+  @media (width >= 1400px) {
+    max-width: 1400px;
   }
 }
