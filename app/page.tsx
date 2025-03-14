@@ -1,11 +1,19 @@
+import BgGradient from "@/components/common/br-gradient";
+import DemoSection from "@/components/home/demo-section";
 import HeroSection from "@/components/home/hero-section";
+import HowitWorkSection from "@/components/home/how-it-work-section";
 
 export default function Home() {
   return (
-    <div className="container flex items-center justify-center mt-10">
-      <HeroSection />
-      {/* <DemoSection /> */}
-      {/* <HowitWorkSection /> */}
+    <div className="relative w-full">
+      <BgGradient />
+
+      <div className="flex flex-col">
+        <HeroSection />
+      </div>
+      <DemoSection />
+      <HowitWorkSection />
+
       {/* <PricingSection /> */}
       {/* <CTASection /> */}
     </div>
