@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { ArrowRight, CheckIcon } from "lucide-react";
 
 type Plan = {
   name: string;
@@ -40,13 +41,26 @@ export default function PlanItems({
             <p>/mês</p>
           </div>
         </div>
-        <div>
+        <div className="space-y-2.5 leading-relaxed flex-1">
           {items.map((items, index) => (
-            <li key={index}>{items}</li>
+            <li key={index} className="flex items-center gap-2">
+              <CheckIcon size={18} />
+              <span>{items}</span>
+            </li>
           ))}
         </div>
-        <div>
-          <Link href={paymentLink}>Comprar</Link>
+        <div className="flex justify-center space-y-2 w-full">
+          <Link
+            href={paymentLink}
+            className={cn(
+              "flex items-center justify-center w-full rounded-full gap-2 bg-linear-to-r from-rose-800 to-rose-500 hover:from-rose-500 hover:to-rose-800 text-white border-2 py-2",
+              id === "premium"
+                ? "border-rose-900"
+                : "border-rose-100 from-rose-400 to-rose-500"
+            )}
+          >
+            Comprar <ArrowRight />
+          </Link>
         </div>
       </div>
     </div>
