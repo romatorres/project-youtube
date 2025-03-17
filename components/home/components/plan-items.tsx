@@ -21,7 +21,7 @@ export default function PlanItems({
   paymentLink,
 }: Plan) {
   return (
-    <div className="relative max-w-lg w-full">
+    <div className="relative max-w-lg w-full hover:scale-105 hover:transition-all duration-300">
       <div
         className={cn(
           "relative flex flex-col h-full gap-4 lg:gap-8 p-8 rounded-2xl border-[1px] border-gray-500/20",
