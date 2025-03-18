@@ -1,7 +1,7 @@
 ## Endereço do Curso
 
 https://youtu.be/ewxUC_zweBg?si=y8lCnXTPUis10zL1
-2:22:45
+2:36:45
 
 Projeto Full stack YouTube:
 
@@ -13,7 +13,9 @@ Tailwind css 4
 Shadcn Ui
 Motion - biblioteca de animações
 Clerk - Cria autenticação para usuários
+Zod
 PostgreSQL
+Langchain
 NeonDB
 UploadThing - up de imagens
 Stripe - pagamentos online
