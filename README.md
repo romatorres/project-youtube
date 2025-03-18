@@ -1,7 +1,7 @@
 ## Endereço do Curso
 
 https://youtu.be/ewxUC_zweBg?si=y8lCnXTPUis10zL1
-2:36:45
+2:46:00
 
 Projeto Full stack YouTube:
 

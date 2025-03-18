@@ -7,10 +7,10 @@ export default function Page() {
     <section className="min-h-7xl">
       <BgGradient />
       <div className="flex flex-col items-center mx-auto max-w-7xl px-6 lg:px-8 py-24 sm:py-32">
-        <div className="flex flex-col justify-center items-center gap-6 text-center">
+        <div className="flex flex-col justify-center items-center gap-6 text-center mb-10">
           <UploadHeader />
-          <UploadForm />
         </div>
+        <UploadForm />
       </div>
     </section>
   );
